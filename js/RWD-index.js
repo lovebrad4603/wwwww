@@ -1,0 +1,1 @@
+let RWD_W = document.documentElement.scrollWidth;
