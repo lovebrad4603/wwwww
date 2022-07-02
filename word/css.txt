@@ -1,0 +1,19 @@
+/* Font **/
+
+.offont {
+    font-family: 'otsutome';
+}
+
+.izfont {
+    font-family: 'izakaya';
+}
+
+@font-face {
+    font-family: 'otsutome';
+    src: url(/font/OtsutomeFont_Ver3.ttf);
+}
+
+@font-face {
+    font-family: 'izakaya';
+    src: url(/font/Izakaya.ttf);
+}

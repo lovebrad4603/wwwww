@@ -1,0 +1,44 @@
+.body {
+    background-color: rgb(32, 129, 158);
+    min-height: 100vh;
+}
+
+
+/* header */
+
+.header {
+    background-color: brown;
+}
+
+.header a:link {
+    color: black;
+}
+
+.header a:visited {
+    color: black;
+}
+
+.header-logo a {
+    display: flex;
+    font-size: 4rem;
+    font-family: Verdana, "fantasy", Tahoma, sans-serif;
+    margin: auto 7%;
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+.header-right {
+    display: flex;
+    margin-top: 3rem;
+    padding-right: 6rem;
+}
+
+.header-right a {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}

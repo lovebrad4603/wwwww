@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>誠悅旅行社</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/logo-img/logo.png">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boolstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+</head>
+
+
+<body class="big-bg card">
+    <!-- 不明所以 -->
+    <div id="main"></div>
+    <!-- 不明所以 -->
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="sonar-load"></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- ***** Main Menu Area Start ***** -->
+    <div class="mainMenu d-flex align-items-center justify-content-between Full">
+        <!-- Close Icon -->
+        <div class="closeIcon">
+            <i class="ti-close" aria-hidden="true"></i>
+        </div>
+        <!-- Logo Area -->
+        <div class="logo-area">
+            <a href="index-2.html">首頁</a>
+        </div>
+        <!-- Nav -->
+        <div class="sonarNav wow fadeInUp " data-wow-delay="1s">
+            <nav>
+                <ul>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="information-1.html">最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="announcement.html">防疫公告</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="story.html">誠悅故事</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="travel.html">旅行專案</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">公司介紹</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Copwrite Text -->
+        <div class="copywrite-text">
+            <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+    <!-- ***** Main Menu Area End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="menu-area d-flex justify-content-between">
+                        <!-- Logo Area  -->
+                        <div class="logo-area">
+                            <a href="index-2.html">誠悅</a>
+                        </div>
+                        <div id="nav-3">
+                            <a class="link-3" href="information-1.html">最新消息</a>
+                            <a class="link-3" href="announcement.html">防疫公告</a>
+                            <a class="link-3" href="story.html">誠悅故事</a>
+                            <a class="link-3" href="travel.html">旅行專案</a>
+                            <a class="link-3" href="about-me.html">公司介紹</a>
+                        </div>
+                        <div class="menu-content-area d-flex align-items-center">
+                            <!-- Header Social Area -->
+                            <div class="header-social-area d-flex align-items-center">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Line" onclick="Line()"><i
+                                            class="bi bi-line fa-2x" aria-hidden="true"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Telephone" onclick="phone()"><i
+                                            class="bi bi-telephone fa-2x" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/easyticket.com.tw" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook fa-2x"
+                                            aria-hidden="true"></i></a>
+                            </div>
+                            <!-- Menu Icon -->
+                            <span class="navbar-toggler-icon fa-2x display-none" id="menuIcon"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+
+
+    <article class=" item-travel">
+        <div class=" img img-1"><a href="travel-all-one.html" class="DAY"> 一日遊</a></div>
+        <div class=" img img-2"><a href="travel-all-two.html" class="DAY"> 二日遊</a></div>
+        <div class=" img img-3"><a href="travel-all-three.html" class="DAY"> 三日遊</a></div>
+        <div class=" img img-4"><a href="travel-all-abroad.html" class="DAY"> 國外旅遊</a></div>
+    </article>
+
+
+    <!-- 手機號碼 -->
+    <div class="phone" id="phone">
+        <div class="phone-in">
+            <div class="return-phone"><a href="#" onclick="phone_out()"><i class=" bi bi-x-lg color-w "></i></a></div>
+            <div class="phone-container">
+                <div class="phone-item-1">
+                    <img src="img/phone-img/phone.png" alt="">
+                    <p>電話:0929.069.955</p>
+                </div>
+                <div class="phone-item-2">
+                    <img src="img/phone-img/mail.png" alt="">
+                    <p>信箱:allen7030@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LINE -->
+    <div class="Line" id="Line">
+        <div class="Line-in">
+            <div class="return-Line"><a href="#" onclick="Line_out()"><i class=" bi bi-x-lg color-w "></i></a></div>
+            <div class="Line-container">
+                <div class="Line-item-1">
+                    <img src="img/phone-img/Line.png" alt="">
+                    <p>
+                        <a href="https://line.me/ti/p/eQNVxziRzL">LINE連結</a>
+                    </p>
+                </div>
+                <div class="Line-item-2">
+                    <img src="img/phone-img/QRcode.png" alt="">
+                    <p>LINE:QRcode</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 手機、LINE -->
+    <script src="js/phone.js"></script>
+    <script src="js/Line.js"></script>
+    <!-- BG月份變換 -->
+    <script src="js/ch_bg.js" defer></script>
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- 滑鼠動畫 不明所以 -->
+    <script src="js/mouseAnimation.js"></script>
+    <!-- 點擊效果 -->
+    <script src="js/clickEffect.js"></script>
+</body>
+
+</html>
