@@ -1,0 +1,25 @@
+text-stroke + text-fill-color制作文字鏤空效果
+EX:  font-size:60px;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke:1px #fff;
+
+backgroumd-clip:text;
+background-clip:text結合text-fill-color制作文字漸變效果
+EX:  font-size:60px;
+    background: linear-gradient(to bottom,#FCF,#000);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+注意:background-clip必須放在background后面不然不起作用，之所以要用background是因為text-fill-color不能使用linear所以只好借助background了。
+background-clip:text會將背景作為文字區域裁剪。
+
+網址：https://autoposter.pixnet.net/blog/post/117386075-css-text-fill-color%E8%88%87text-stroke%E8%AC%9B%E8%A7%A3
+
+
+
+
+/* 言 */
+clip-path: polygon(49% 11%, 58% 11%, 60% 21%, 71% 21%, 73% 30%, 57% 30%, 58% 39%, 74% 39%, 75% 48%, 58% 48%, 60% 55%, 75% 55%, 75% 64%, 59% 64%, 52% 70%, 77% 70%, 77% 88%, 41% 88%, 41% 70%, 51% 70%, 50% 82%, 67% 82%, 67% 75%, 49% 75%, 45% 76%, 59% 64%, 41% 64%, 41% 55%, 60% 55%, 58% 48%, 39% 48%, 39% 39%, 58% 39%, 57% 30%, 39% 30%, 39% 21%, 51% 21%);
+/* 心 */
+ clip-path: polygon(34% 36%, 30% 42%, 31% 52%, 38% 58%, 43% 54%, 42% 41%, 50% 38%, 53% 63%, 50% 80%, 58% 89%, 63% 81%, 63% 59%, 63% 45%, 73% 47%, 75% 41%, 69% 35%, 62% 36%, 59% 17%, 52% 13%, 50% 20%, 50% 38%, 42% 41%);
+/* 兌 */
+    clip-path: polygon(30% 14%, 23% 21%, 16% 36%, 25% 34%, 39% 25%, 40% 18%, 58% 16%, 74% 22%, 80% 38%, 65% 32%, 56% 26%, 58% 16%, 35% 40%, 66% 40%, 66% 63%, 27% 63%, 27% 40%, 35% 40%, 35% 57%, 57% 57%, 57% 46%, 35% 46%, 35% 40%, 36% 69%, 29% 79%, 23% 86%, 11% 95%, 27% 93%, 36% 87%, 42% 79%, 49% 68%, 54% 90%, 72% 93%, 86% 92%, 85% 70%, 79% 83%, 73% 86%, 60% 83%, 59% 69%, 49% 68%, 36% 69%, 35% 40%, 58% 16%, 40% 18%);
